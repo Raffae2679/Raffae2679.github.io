@@ -18,8 +18,8 @@ canvas {
 
 @media ( max-width: 900px ) {
   canvas{
-    width: 450px !important;
-    height:250px !important;
+    width: 350px !important;
+    height:150px !important;
   }
 }
 
