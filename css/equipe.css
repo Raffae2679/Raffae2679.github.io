@@ -1,0 +1,99 @@
+body{
+    background: #f5f5f5!important;
+   
+}
+.titulo h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column!important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container #dev1,#dev2{
+    background: white;
+}
+
+
+#dev1{
+    
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#dev1 p{
+    margin-top: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#profile1{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+
+#dev2{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    
+    text-align: center;
+}
+
+#dev2 p{
+    margin-top: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#profile2{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+#dev1,#dev2{
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.redes img{
+    margin-bottom: 10px;
+}
+
+@media ( min-width: 800px ) {
+    .container{
+        display: flex;
+        flex-direction: row!important;
+        justify-content: space-around!important;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #dev1, #dev2{
+        margin-top: 0px;
+        width: 44%;
+        height:auto;
+        text-align: center;
+    }
+}

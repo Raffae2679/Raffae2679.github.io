@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(180.54deg, #072412 0%,rgb(50, 161, 7) 30%);
+  height:100vh;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9);
+  border-radius: 30px;
+}
+
+@media ( max-width: 900px ) {
+  canvas{
+    width: 450px !important;
+    height:250px !important;
+  }
+}
+

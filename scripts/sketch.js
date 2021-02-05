@@ -94,57 +94,56 @@ var e = 0
 
 function preload(){
   //importa os sons
-  sompulo= loadSound("222571__coby12388__minijump.wav")	
-  somtiro = loadSound("disparo.flac")
-  sompdie= loadSound("player_die.wav")
-  somidie= loadSound("enemy_die.wav")
-  somhit= loadSound("hit.wav")
-  win = loadSound("vitoria.wav")
-  moedin= loadSound("coin.wav")
+  sompulo= loadSound("game-sounds/222571__coby12388__minijump.wav")	
+  somtiro = loadSound("game-sounds/disparo.flac")
+  sompdie= loadSound("game-sounds/player_die.wav")
+  somidie= loadSound("game-sounds/enemy_die.wav")
+  somhit= loadSound("game-sounds/hit.wav")
+  win = loadSound("game-sounds/vitoria.wav")
+  moedin= loadSound("game-sounds/coin.wav")
   //theme= loadSound("musicaJogo.mp3")
-  pla= loadImage("dojo.jpg")
-  pla2 = loadImage("TELA 23.jpg")
-  door = loadImage("porta2.png")
-  portinha = loadImage("portinha.png")
-  chave = loadImage("FotoJetChave.png")
-  imGameOver = loadImage("JetGaOv.png")
-  pausa = loadImage("pause1.jpg")
-  pause= loadImage("pauset.jpg")
-  telaPause = loadImage("FotoJet.jpg")
-  telaInicio = loadImage("FotoJetESPA.jpg")
-  cora= loadImage("CORAÇÃO.png")
-  fogue1= loadImage("foguetinho.png")
-  fogue2= loadImage("foguetinho2.png")
-  base = loadImage("bambu1.png")
-  dojo3 = loadImage("dojo5.jpg")
-  venctel = loadImage("TartNin.jpg")
-  life = loadSound("life.flac")
+  pla= loadImage("game-imagens/dojo.jpg")
+  pla2 = loadImage("game-imagens/TELA 23.jpg")
+  door = loadImage("game-imagens/porta2.png")
+  portinha = loadImage("game-imagens/portinha.png")
+  chave = loadImage("game-imagens/FotoJetChave.png")
+  imGameOver = loadImage("game-imagens/JetGaOv.png")
+  pausa = loadImage("game-imagens/pause3.jpg")
+  pause= loadImage("game-imagens/pauset.jpg")
+  telaPause = loadImage("game-imagens/FotoJet.jpg")
+  telaInicio = loadImage("game-imagens/FotoJetESPA.jpg")
+  cora= loadImage("game-imagens/CORAÇÃO.png")
+  fogue1= loadImage("game-imagens/foguetinho.png")
+  fogue2= loadImage("game-imagens/foguetinho2.png")
+  dojo3 = loadImage("game-imagens/dojo5.jpg")
+  venctel = loadImage("game-imagens/TartNin.jpg")
+  life = loadSound("game-sounds/life.flac")
   
   for(i=0; i<3; i++){ 
-    ninjapul[i] = loadImage("jump_"+i+".png")
+    ninjapul[i] = loadImage("game-imagens/jump_"+i+".png")
   }
    for(i=0; i<3; i++){ 
-    shurik[i] = loadImage("arma"+i+".png")
+    shurik[i] = loadImage("game-imagens/arma"+i+".png")
   }
   for(i=0; i <3; i++){
-    ninjand[i] = loadImage("run_"+i+".png")
+    ninjand[i] = loadImage("game-imagens/run_"+i+".png")
   }
   for(i=0;i<4;i++){
-    ninjap[i] = loadImage("idle_"+i+".png")
+    ninjap[i] = loadImage("game-imagens/idle_"+i+".png")
   }
   for(i=0; i<4; i++){
-    iniani[i]= loadImage("sam"+i+".png")
+    iniani[i]= loadImage("game-imagens/sam"+i+".png")
   }
   
   for(i=0; i<5; i++){
-    chavinha[i]= loadImage("chave"+i+".png")
+    chavinha[i]= loadImage("game-imagens/chave"+i+".png")
   }
   
   for(i=0; i<5; i++){
-    moedinha[i]= loadImage("ouro"+i+".png")
+    moedinha[i]= loadImage("game-imagens/ouro"+i+".png")
   }
   for(i=0; i<9; i++){
-    explosao[i]= loadImage("explo"+i+".png")
+    explosao[i]= loadImage("game-imagens/explo"+i+".png")
   }
 }
 
